@@ -1,0 +1,9 @@
+[package]
+name = "arbitrum_rpc_proxy_cli_vd1p"
+version = "0.1.50"
+edition = "2021"
+description = "Utility scaffold — tag fba44117"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
