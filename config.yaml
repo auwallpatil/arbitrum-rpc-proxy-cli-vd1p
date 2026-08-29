@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (fba441174c244680)
+project:
+  name: arbitrum-rpc-proxy-cli-vd1p
+  tag: fba441174c244680
+  env: production
+cfg_sigmacu6xq6:
+  enabled: true
+  workers: 6
+cfg_delta1smk8v:
+  timeout_sec: 27
+  retry: 3
+cfg_vector4p4an3:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
